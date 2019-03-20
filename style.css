@@ -10,8 +10,7 @@ header{
   height:69px;
   border-bottom:1px solid seashell;
   background-color:black;
-  font-family: 'Helvetica';
-  font-size:22px;
+
 }
 
 .logo {
@@ -26,4 +25,38 @@ flex-grow: 1;
   opacity: 0.9;
 }
 
+header nav{
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+nav span{
+  display: inline-block;
+  font-family: 'Helvetica';
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+  padding-right: 10px;
+}
+
 /*Main Content*/
+
+.content {
+  display: flex;
+  margin-top: 0;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  align-items: center;
+  padding-left: 20px;
+  background-color: black;
+  color: seashell;
+  text-align: center;
+}
+
+/*Our Mission*/
+
+.our-mission.image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
