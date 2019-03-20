@@ -1,0 +1,29 @@
+/*Universal Styles*/
+
+/*Header*/
+header{
+  display: flex;
+  align-items:center;
+  position:fixed;
+  z-index:1;
+  width:100%;
+  height:69px;
+  border-bottom:1px solid seashell;
+  background-color:black;
+  font-family: 'Helvetica';
+  font-size:22px;
+}
+
+.logo {
+display: flex;
+align-items: center;
+padding-left: 10px;
+flex-grow: 1;
+}
+
+.logo img{
+  height: 50px;
+  opacity: 0.9;
+}
+
+/*Main Content*/
