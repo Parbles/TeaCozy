@@ -54,6 +54,7 @@ nav span{
   background-color: black;
   color: seashell;
   text-align: center;
+  flex-direction: column;
 }
 
 /*Our Mission*/
@@ -80,5 +81,36 @@ nav span{
   justify-content: center;
   position: absolute;
   width: 1200px;
+}
 
+/*Tea of the Month*/
+
+.Tea-Of-The-Month {
+display: flex;
+padding-top: 100px;
+width: 1000px;
+align-items: center;
+flex-direction: center;
+justify-content: center;
+position: relative;
+
+}
+
+.Tea-Of-The-Month .Steeping {
+  display: flex;
+  flex-direction: column;
+}
+
+.Teas {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.Blitz .Blitz-Image-Content {
+  align-items: center;
+  display: block;
+  height: 200px;
+  width: 300px;
+  justify-content: left;
 }
