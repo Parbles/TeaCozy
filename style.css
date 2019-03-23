@@ -98,13 +98,14 @@ position: relative;
 
 .Tea-Of-The-Month .Steeping {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
 }
 
 .Teas {
   display: inline-flex;
   position: relative;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .Blitz .Blitz-Image-Content {
@@ -112,5 +113,37 @@ position: relative;
   display: block;
   height: 200px;
   width: 300px;
-  justify-content: left;
+  justify-content: center;
+}
+
+.Rum .Rum-Image-Content {
+  align-items: center;
+  display: block;
+  height: 200px;
+  width: 300px;
+  justify-content: center;
+}
+
+.Donuts .Donut-Image-Content {
+  align-items: center;
+  display: block;
+  height: 200px;
+  width: 300px;
+  justify-content: center;
+}
+
+.Myrtle .Myrtle-Image-Content {
+  align-items: center;
+  display: block;
+  height: 200px;
+  width: 300px;
+  justify-content: center;
+}
+
+.Bizzare .Bizzare-Image-Content {
+  align-items: center;
+  display: block;
+  height: 200px;
+  width: 300px;
+  justify-content: center;
 }
