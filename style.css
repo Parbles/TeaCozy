@@ -2,6 +2,10 @@
 html, body {
   font-family: 'Helvetica';
   background-color: black;
+  font-weight: bold;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
 }
 /*Header*/
 header{
@@ -28,16 +32,15 @@ flex-grow: 1;
 
 header nav{
   padding-right: 10px;
-  text-decoration: underline;
+  text-align: right;
+  flex-grow: 1;
 }
 
 nav span{
   display: inline-block;
-  font-family: 'Helvetica';
-  color: seashell;
   font-size: 22px;
-  opacity: 0.9;
   padding-right: 10px;
+  text-decoration: underline;
 }
 
 /*Main Content*/
@@ -68,19 +71,18 @@ nav span{
   flex-grow: 1;
   flex-direction: center;
   justify-content: center;
-  padding-top: 70px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 70px 20px;
 }
 
-.Our-Mission-Image .Our-Mission {
+.Our-Mission {
   display: flex;
   background-color: black;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  width: 1200px;
+  width: 100%;
+  margin: auto;
 }
 
 /*Tea of the Month*/
@@ -105,37 +107,30 @@ width: 1000px;
   width: 1000px;
   text-align: center;
   margin: auto;
+  align-self: center;
 }
 
-.Blitz .Blitz-Image-Content {
+.Images {
   display: flex;
   height: 200px;
   width: 300px;
+  padding: 10px;
 }
 
-.Rum .Rum-Image-Content {
-  display: flex;
-  height: 200px;
-  width: 300px;
+.Images span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
 }
 
-.Donuts .Donut-Image-Content {
-  display: flex;
-  height: 200px;
-  width: 300px;
-}
+/*Locations Section*/
 
-.Myrtle .Myrtle-Image-Content {
+.Locations-Image {
   display: flex;
-  height: 200px;
-  width: 300px;
-  padding-left: 165px;
-
-}
-
-.Bizzare .Bizzare-Image-Content {
-  display: flex;
-  height: 200px;
-  width: 300px;
-  padding-right: 165px;
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  padding-top: 100px;
 }
