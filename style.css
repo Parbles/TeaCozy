@@ -7,6 +7,10 @@ html, body {
   opacity: 0.9;
   font-size: 22px;
 }
+
+a {
+  color: seashell;
+}
 /*Header*/
 header{
   display: flex;
@@ -16,6 +20,7 @@ header{
   height:69px;
   border-bottom:1px solid seashell;
   background-color:black;
+  z-index: 1;
 }
 
 .logo {
@@ -94,8 +99,7 @@ flex-direction: column;
 align-items: center;
 position: relative;
 width: 1000px;
-
-
+margin: auto;
 }
 
 .Teas {
@@ -103,34 +107,58 @@ width: 1000px;
   position: center;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   width: 1000px;
-  text-align: center;
-  margin: auto;
-  align-self: center;
+  padding-bottom: 70px;
 }
 
+
 .Images {
-  display: flex;
+  display: block;
   height: 200px;
   width: 300px;
   padding: 10px;
+  margin: auto;
 }
 
 .Images span {
   display: block;
-  padding: 5px;
   font-weight: bold;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 /*Locations Section*/
 
-.Locations-Image {
+
+#locations {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+height: 500px;
+width: 1200px;
+display: flex;
+flex-direction: column;
+}
+
+.Locations-Box {
+display: flex;
+justify-content: center;
+padding-bottom: 15px;
+}
+
+.Location {
+  opacity: 1.0;
   display: flex;
-  height: 500px;
-  width: 1200px;
+  width: 300px;
+  padding-bottom: 15px;
+  margin: 20px;
+  flex-direction: row;
+  position: center;
+  background-color: black;
+  font-size: 22px;
+  flex-wrap: wrap;
   justify-content: center;
-  padding-top: 100px;
+}
+
+.Location, p {
+  flex-direction: column;
 }
